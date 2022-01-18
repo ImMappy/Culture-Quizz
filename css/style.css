@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 1em;
+}
+
+h1, footer, main {
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quizz-bloc {
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 5px #0C0908;
+          box-shadow: 1px 1px 5px #0C0908;
+}
+
+.quizz-bloc h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.7em;
+}
+
+input, label {
+  margin: 0.5em;
+}
+
+button {
+  padding: 1.5em;
+  border-radius: 5px;
+  display: block;
+  margin: 1em auto;
+  cursor: pointer;
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
+button:hover {
+  background-color: #D3FEFE;
+}
+
+.results {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 1.5em;
+  visibility: hidden;
+  padding: 2em;
+  margin: 10px 0px 70px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.gif, p {
+  text-align: center;
+  margin: 1em;
+}
+
+.gif img, p img {
+  width: 50%;
+  height: auto;
+}
+
+footer {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1em;
+  color: #fff;
+  background-color: #454848;
+  height: 18vh;
+  text-align: center;
+}
+
+.copy {
+  padding: 0.5em;
+}
+
+.copy p {
+  margin: 1.5em 0;
+}
+
+.fa-github, .fa-linkedin {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0 0.3em;
+}
+
+.wrong {
+  -webkit-animation: failed 0.5s ease-in-out;
+          animation: failed 0.5s ease-in-out;
+}
+
+@-webkit-keyframes failed {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  33% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+  }
+  66% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes failed {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  33% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+  }
+  66% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
